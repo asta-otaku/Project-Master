@@ -1,0 +1,13 @@
+/* .header {
+    background: url(../assets/photo.jpg);
+} */
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding-right: 4rem;
+}
