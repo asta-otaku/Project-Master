@@ -4,4 +4,7 @@
   /* background-color: #000000; */
   box-sizing: border-box;
   color: #fefefe;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
 }
