@@ -8,6 +8,7 @@ import spiral from "../../assets/spiral.png";
 import food from "../../assets/food.png";
 import car from "../../assets/car.png";
 import juice from "../../assets/juice.png";
+import man from "../../assets/man.png";
 
 export const Portfolio = () => {
   return (
@@ -46,7 +47,138 @@ export const Portfolio = () => {
             </li>
           </ul>
         </div>
-        <div className="about"></div>
+        <div className="about">
+          <h4>About Me</h4>
+          <div style={{ display: "flex" }}>
+            <div>
+              <img src={man} alt="man" />
+              <p style={{ width: "26rem" }}>
+                Joseph Kalu is an international award winning Nigerian
+                Photographer. He does wedding, portraits, fashion, events and
+                travel Photography
+              </p>
+            </div>
+            <div>
+              <ul style={{ display: "flex", flexDirection: "column" }}>
+                <li>
+                  <h5>Photographer</h5>
+                  <span>
+                    <svg
+                      width="494"
+                      height="4"
+                      viewBox="0 0 494 4"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <line
+                        x1="-4.37114e-08"
+                        y1="2.7854"
+                        x2="494"
+                        y2="2.78536"
+                        stroke="#C4C4C4"
+                      />
+                      <line
+                        x1="-1.31134e-07"
+                        y1="1.7854"
+                        x2="439"
+                        y2="1.78536"
+                        stroke="#FEFEFE"
+                        stroke-width="3"
+                      />
+                    </svg>
+                  </span>
+                </li>
+                <li>
+                  <h5>Product</h5>
+                  <span>
+                    <svg
+                      width="494"
+                      height="4"
+                      viewBox="0 0 494 4"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <line
+                        x1="-4.37114e-08"
+                        y1="3.44702"
+                        x2="494"
+                        y2="3.44698"
+                        stroke="#C4C4C4"
+                      />
+                      <line
+                        x1="-1.31134e-07"
+                        y1="2.44702"
+                        x2="360"
+                        y2="2.44699"
+                        stroke="#FEFEFE"
+                        stroke-width="3"
+                      />
+                    </svg>
+                  </span>
+                </li>
+                <li>
+                  <h5>Conferences</h5>
+                  <span>
+                    <svg
+                      width="494"
+                      height="4"
+                      viewBox="0 0 494 4"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <line
+                        x1="-4.37114e-08"
+                        y1="3.47363"
+                        x2="494"
+                        y2="3.47359"
+                        stroke="#C4C4C4"
+                      />
+                      <line
+                        x1="-1.31134e-07"
+                        y1="2.47363"
+                        x2="408"
+                        y2="2.4736"
+                        stroke="#FEFEFE"
+                        stroke-width="3"
+                      />
+                    </svg>
+                  </span>
+                </li>
+                <li>
+                  <h5>Events</h5>
+                  <span>
+                    <svg
+                      width="494"
+                      height="3"
+                      viewBox="0 0 494 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <line
+                        x1="-4.37114e-08"
+                        y1="2.5"
+                        x2="494"
+                        y2="2.49996"
+                        stroke="#C4C4C4"
+                      />
+                      <line
+                        x1="-1.31134e-07"
+                        y1="1.5"
+                        x2="366"
+                        y2="1.49997"
+                        stroke="#FEFEFE"
+                        stroke-width="3"
+                      />
+                    </svg>
+                  </span>
+                </li>
+                <li>
+                  <button className="btn-port">Download Portfolio</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
