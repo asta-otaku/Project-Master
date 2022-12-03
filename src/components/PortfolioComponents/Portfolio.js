@@ -173,7 +173,7 @@ export const Portfolio = () => {
                   </span>
                 </li>
                 <li>
-                  <button className="btn-port">Download Portfolio</button>
+                  <button className="btn text-black">Download Portfolio</button>
                 </li>
               </ul>
             </div>
