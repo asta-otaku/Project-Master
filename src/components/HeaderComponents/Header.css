@@ -1,72 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
 .header {
-  background: url("../../assets/photo.png") center/cover no-repeat border-box, #ffff;
+  background: url("../../assets/photo.png") center/cover no-repeat border-box,
+    #ffff;
   height: 65rem;
   z-index: -1;
   display: flex;
   flex-direction: column;
 }
 
-nav {
-    padding-top: 2rem;
-}
-
-ul {
-  list-style: none;
+.profile-container {
+  margin-top: 9.5rem;
   display: flex;
   justify-content: center;
-}
-
-li {
-  padding-right: 4rem;
-  background-color: transparent;
-  font-family: "Inter";
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.profile-container {
-    margin-top: 9.5rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  text-align: center;
 }
 
 .profile {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .profile h4 {
-    font-size: 72px;
-    font-weight: 700;
-    margin-bottom: 32px;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 32px;
 }
 
 .profile p {
-    font-size: 36px;
-    font-weight: 400;
-    margin-bottom: 2.7rem;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 2.7rem;
 }
 
 .profile button {
-    background-color: #AA66CD;
-    padding: 15px 43px;
-    border-radius: 10px;
-    outline: none;
-    font-weight: 500;
-    font-size: 20px;
+  background-color: #aa66cd;
+  padding: 15px 43px;
+  border-radius: 10px;
+  outline: none;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .profile button:hover {
-    color: #AA66CD;
-    background-color: #fefefe;
+  color: #aa66cd;
+  background-color: #fefefe;
 }
 
 .profile-socials {
-    margin-right: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .profile-socials a {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
+
+/* @media (min-width: 60rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+  }
+
+  .main-nav__item {
+    font-size: 24px;
+  }
+} */
