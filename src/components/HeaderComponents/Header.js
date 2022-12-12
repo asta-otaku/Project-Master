@@ -55,7 +55,7 @@ function Header() {
               >
                 <AiIcons.AiOutlineClose />
               </div>
-              <div className="pt-8">
+              <div className="pt-4">
                 <h4>Portfolio</h4>
                 <h4>About Me</h4>
                 <h4>Services</h4>
