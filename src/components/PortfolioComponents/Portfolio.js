@@ -173,7 +173,7 @@ export const Portfolio = () => {
                   </span>
                 </li>
                 <li>
-                  <button className="btn bg-purple rounded px-4 py-2 text-black">
+                  <button className="btn bg-purple rounded px-8 py-2 text-black">
                     Download Portfolio
                   </button>
                 </li>
