@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     colors: {
       purple: "#AA66CD",
+      white: "#fefefe",
+      green: "#145858",
+      grey: "#D0DEDE",
+      black: "#0F1111",
     },
     fontFamily: {
       inter: ["Inter", "serif"],
