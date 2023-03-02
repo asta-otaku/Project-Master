@@ -10,7 +10,8 @@ module.exports = {
       black: "#0F1111",
     },
     fontFamily: {
-      inter: ["Inter", "serif"],
+      jost: ["Jost", "sans-serif"],
+      grotesk: ["Space Grotesk", "sans-serif"],
     },
     extend: {},
   },

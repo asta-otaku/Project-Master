@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Inter";
+  font-family: 'Jost', sans-serif;
 }
