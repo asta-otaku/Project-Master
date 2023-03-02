@@ -14,22 +14,19 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color: transparent;
 }
 
 .profile {
   margin: 0 auto;
+  background-color: transparent;
 }
 
 .profile h4 {
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 32px;
-}
-
-.profile p {
-  font-size: 36px;
-  font-weight: 400;
-  margin-bottom: 2.7rem;
+  background-color: transparent;
 }
 
 .profile button {

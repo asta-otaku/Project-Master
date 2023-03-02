@@ -95,9 +95,8 @@ function Header() {
         <div className="profile-container">
           <div className="profile">
             <h4>Joseph</h4>
-            <p>
-              I'm Joseph Kalu A Photographer{" "}
-              <span style={{ display: "block" }}>Based In San Francisco</span>
+            <p className="text-3xl w-[500px] mb-6">
+              I'm Joseph Kalu A Photographer Based In San Francisco
             </p>
             <button>Start a project</button>
           </div>
