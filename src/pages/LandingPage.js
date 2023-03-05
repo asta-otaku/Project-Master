@@ -4,6 +4,7 @@ import Dashboard from "../components/Home/Dashboard";
 import Hero from "../components/Home/Hero";
 import Integrations from "../components/Home/Integrations";
 import Product from "../components/Home/Product";
+import Testimonials from "../components/Home/Testimonials";
 
 function LandingPage() {
   return (
@@ -13,6 +14,7 @@ function LandingPage() {
       <Product />
       <Dashboard />
       <Integrations />
+      <Testimonials />
     </>
   );
 }
