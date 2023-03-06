@@ -36,7 +36,7 @@ function Testimonials() {
       <BrightGreenStar className="absolute top-40 right-96" />
       <GreenStar className="absolute bottom-[20%] left-[20%]" />
       <Dude className="absolute top-[50%] left-32" />
-      <Cutie className="absolute top-36 right-36" />
+      <Cutie className="absolute top-40 right-36" />
     </div>
   );
 }
