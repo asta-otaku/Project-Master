@@ -32,12 +32,12 @@ function Testimonials() {
           <Quote className="absolute bottom-[-2rem] right-[-6rem] rotate-180" />
         </div>
         <Frame />
-        <RedStar className="absolute top-24 left-24" />
-        <YellowStar className="absolute bottom-[15%] right-[5%]" />
-        <BrightGreenStar className="absolute top-40 right-96" />
-        <GreenStar className="absolute bottom-[20%] left-[20%]" />
-        <Dude className="absolute top-[50%] left-32" />
-        <Cutie className="absolute top-40 right-36" />
+        <RedStar className="absolute top-[20%] left-[2%]" />
+        <YellowStar className="absolute bottom-[10%] right-[5%]" />
+        <BrightGreenStar className="absolute top-[30%] right-[30%]" />
+        <GreenStar className="absolute bottom-[15%] left-[15%]" />
+        <Dude className="absolute top-[55%] left-8" />
+        <Cutie className="absolute top-[28%] right-36" />
       </div>
       <div className="bg-green w-[80%] py-16 mt-36 rounded-xl flex flex-col items-center mx-auto">
         <h2 className="font-grotesk font-bold text-white text-[48px] text-center w-[900px]">
