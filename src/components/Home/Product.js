@@ -28,7 +28,7 @@ function Product() {
           </button>
         </div>
         <div className="col-span-3">
-          <div className="p-6 pt-4 bg-[#FFFFFF] rounded-xl shadow-lg shadow-black-800 drop-shadow-lg">
+          <div className="p-6 pt-4 bg-[#FFFFFF] rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
             <Group44 />
             <h4 className="font-grotesk font-bold text-[28px] text-[#0F1111] w-[300px] my-4">
               Better Collaboration and Communication
@@ -39,7 +39,7 @@ function Product() {
               more.
             </p>
           </div>
-          <div className="p-4 pr-6 bg-[#FFFFFF] mt-8 rounded-xl shadow-lg shadow-black-800 drop-shadow-lg">
+          <div className="p-4 pr-6 bg-[#FFFFFF] mt-8 rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
             <Group45 />
             <h4 className="font-grotesk font-bold text-[28px] text-[#0F1111] w-[300px] my-4">
               Easy Project Planning and Scheduling
@@ -52,7 +52,7 @@ function Product() {
           </div>
         </div>
         <div className="col-span-3 translate-y-20">
-          <div className="pl-4 pr-6 pt-6 pb-14 bg-[#FFFFFF] rounded-xl shadow-lg shadow-black-800 drop-shadow-lg">
+          <div className="pl-4 pr-6 pt-6 pb-14 bg-[#FFFFFF] rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
             <Group46 />
             <h4 className="font-grotesk font-bold text-[28px] text-[#0F1111] w-[300px] my-4">
               Boosted Productivity
@@ -63,7 +63,7 @@ function Product() {
               and better.
             </p>
           </div>
-          <div className="p-6 pt-4 bg-[#FFFFFF] mt-8 rounded-xl shadow-lg shadow-black-800 drop-shadow-lg">
+          <div className="p-6 pt-4 bg-[#FFFFFF] mt-8 rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
             <Group47 />
             <h4 className="font-grotesk font-bold text-[28px] text-[#0F1111] w-[300px] my-4">
               Better Budget Management
