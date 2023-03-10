@@ -10,206 +10,234 @@ function Hero() {
         Turbo charge your team workflow. Start for{" "}
         <span className="text-green">free.</span>
       </h2>
-      <div className="flex items-center">
-        <h6 className="">Monthly</h6>
+      <div className="flex items-center mt-6">
+        <h6 className="mr-8 text-xl text-[#1E2121]">Monthly</h6>
         <Toggles />
-        <h6>Annually (Save 20%)</h6>
+        <h6 className="ml-8 text-[#1E2121]">Annually (Save 20%)</h6>
       </div>
-      <div>
-        <article>
-          <h3>Starter</h3>
-          <h2>
-            Free <span>Forever</span>
+      <div className="flex mt-40">
+        <article className="flex flex-col items-center w-[2%] px-4 pb-4 rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
+          <div className="font-grotesk font-bold text-[24px] text-green bg-grey flex items-center justify-center w-full rounded-t-[10px]">
+            Starter
+          </div>
+          <h2 className="mt-10 font-grotesk font-bold text-4xl text-center">
+            Free{" "}
+            <span className="block font-normal text-[#191C1C] text-xl">
+              Forever
+            </span>
           </h2>
-          <p>
+          <p className="mt-6 text-center w-[260px]">
             For small teams, startups, freelancers, and students who need to
             organize their tasks
           </p>
-          <button className="bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
+          <button className="my-6 bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
             Get Started
           </button>
-          <hr />
-          <h4>Included in Starter:</h4>
-          <ul>
-            <li>
-              <span>
+          <hr className="w-[90%] text-[#D2D3D3]" />
+          <h4 className="mt-[28px] text-xl text-[#191C1C]">
+            Included in Starter:
+          </h4>
+          <ul className="mt-4">
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Up to 5 users
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Unlimited project boards
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Backlog and basic roadmaps
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Reporting and insights
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               2 GB of storage
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Community support
             </li>
           </ul>
         </article>
-        <article>
-          <h3>Team</h3>
-          <h2>
-            $5 <span>User/month</span>
+        <article className="flex flex-col items-center w-[22%] px-4 pb-4 rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
+          <h3 className="font-grotesk font-bold text-[24px] text-green bg-grey px-24 pt-4 pb-2 rounded-t-[10px]">
+            Team
+          </h3>
+          <h2 className="mt-10 font-grotesk font-bold text-4xl text-center">
+            $5{" "}
+            <span className="block font-normal text-[#191C1C] text-xl">
+              User/month
+            </span>
           </h2>
-          <p>
+          <p className="mt-6 text-center w-[260px]">
             For teams that need to manage more work and scale collaboration.
           </p>
-          <button className="bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
+          <button className="mt-12 mb-6 bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
             Start Trial
           </button>
-          <hr />
-          <h4>Everything from Starter +:</h4>
+          <hr className="w-[90%] text-[#D2D3D3]" />
+          <h4 className="mt-[28px] text-xl text-[#191C1C]">
+            Everything from Starter +:
+          </h4>
           <ul>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Up to 20,000 users
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               User roles & permissions
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Audit logs
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Data residency
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               250 GB of storage
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Business hour support
             </li>
           </ul>
         </article>
-        <article>
+        <article className="flex flex-col items-center w-[22%] px-4 pb-4 rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
           <h4>Most Popular</h4>
-          <h3>Business</h3>
-          <h2>
-            $12 <span>User/month</span>
+          <h3 className="font-grotesk font-bold text-[24px] text-green bg-grey px-24 pt-4 pb-2 rounded-t-[10px]">
+            Business
+          </h3>
+          <h2 className="mt-10 font-grotesk font-bold text-4xl text-center">
+            $12{" "}
+            <span className="block font-normal text-[#191C1C] text-xl">
+              User/month
+            </span>
           </h2>
-          <p>
+          <p className="mt-6 text-center w-[260px]">
             For organizations wanting to drive alignment across multiple teams
             and scale business processes.
           </p>
-          <button className="bg-green text-white hover:bg-white hover:text-green font-medium py-4 px-10 rounded-lg">
+          <button className="my-6 bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
             Start Trial
           </button>
           <hr />
-          <h4>Everything from Team +:</h4>
+          <h4 className="mt-[28px] text-xl text-[#191C1C]">
+            Everything from Team +:
+          </h4>
           <ul>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Advanced roadmaps
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Sandbox & release tracks
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Project archiving
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Guaranteed uptime SLA
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Unlimited storage
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               24/7 Premium support
             </li>
           </ul>
         </article>
-        <article>
-          <h3>Enteprise</h3>
-          <h2>
-            $20 <span>User/month</span>
+        <article className="flex flex-col items-center w-[22%] px-4 pb-4 rounded-xl shadow-md shadow-[#979797] drop-shadow-sm">
+          <h3 className="font-grotesk font-bold text-[24px] text-green bg-grey px-24 pt-4 pb-2 rounded-t-[10px]">
+            Enteprise
+          </h3>
+          <h2 className="mt-10 font-grotesk font-bold text-4xl text-center">
+            $20{" "}
+            <span className="block font-normal text-[#191C1C] text-xl">
+              User/month
+            </span>
           </h2>
-          <p>
+          <p className="mt-6 text-center w-[260px]">
             For organizations that need enterprise level security, control, and
             support to manage complex processes
           </p>
-          <button className="bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
+          <button className="my-6 bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
             Start Trial
           </button>
           <hr />
-          <h4>Everything from Business +:</h4>
+          <h4 className="mt-[28px] text-xl text-[#191C1C]">
+            Everything from Business +:
+          </h4>
           <ul>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Unlimited sites
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Centralized security controls
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               Centralized user subscriptions
             </li>
-            <li>
-              <span>
+            <li className="flex items-center mb-4">
+              <span className="mr-4">
                 <Mark />
               </span>
               24/7 Enteprise support
