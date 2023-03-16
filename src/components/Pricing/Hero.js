@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as Toggles } from "../../assets/toggles.svg";
 import { ReactComponent as Mark } from "../../assets/mark.svg";
 import Footer from "../Home/Footer";
+import Companies from "../../assets/Companies.png";
 
 function Hero() {
   return (
@@ -251,9 +252,10 @@ function Hero() {
         <button className="mt-16 bg-grey text-green hover:bg-green hover:text-white font-medium py-4 px-10 rounded-lg">
           Show Comparison table
         </button>
-        <h2 className="mt-32 font-grotesk font-bold text-[48px]">
+        <h2 className="mt-32 mb-12 font-grotesk font-bold text-[48px]">
           Enhancing Workflow Automation at
         </h2>
+        <img src={Companies} alt="" />
         <div className="bg-green w-[80%] py-16 mt-60 rounded-xl flex flex-col items-center mx-auto">
           <h2 className="font-grotesk font-bold text-white text-[48px] text-center w-[900px]">
             Build Products people love. Together with your team.
