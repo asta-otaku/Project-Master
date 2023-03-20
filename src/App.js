@@ -1,14 +1,12 @@
 import "./App.css";
-// import LandingPage from "./pages/LandingPage";
-// import Pricing from "./pages/Pricing";
-import Contact from "./pages/Contact";
+import SignUp from "./components/Login/SignUp";
+import AppRoutes from "./components/Routes";
 
 function App() {
   return (
     <div>
-      {/* <LandingPage /> */}
-      {/* <Pricing /> */}
-      <Contact />
+      {/* <AppRoutes /> */}
+      <SignUp />
     </div>
   );
 }
