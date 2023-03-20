@@ -1,12 +1,13 @@
 import "./App.css";
-import SignUp from "./components/Login/SignUp";
+import Footer from "./components/Footer/Footer";
 import AppRoutes from "./components/Routes";
 
 function App() {
   return (
     <div>
       {/* <AppRoutes /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      <Footer />
     </div>
   );
 }
