@@ -2,11 +2,9 @@ import React from "react";
 import { ReactComponent as Lightning } from "../../assets/lightning.svg";
 import { ReactComponent as ArrowRight } from "../../assets/arrowRight.svg";
 import { ReactComponent as Tiles } from "../../assets/tiles.svg";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Hero() {
-  const navigate = useNavigate();
-
   return (
     <div className="bg-[#FDF0D1] flex flex-col items-center">
       <h3 className="font-grotesk font-bold text-6xl pt-14 w-[800px] leading-[72px]">
@@ -22,12 +20,11 @@ function Hero() {
         your projects. Build it out with ProjectMaster.
       </h4>
       <div>
-        <button
-          className="bg-green text-white hover:bg-grey hover:text-green font-medium py-4 px-10 rounded-lg"
-          onClick={navigate("/signup", { preventScrollReset: true })}
-        >
-          Get Started for free
-        </button>
+        <Link to="/get-started">
+          <button className="bg-green text-white hover:bg-grey hover:text-green font-medium py-4 px-10 rounded-lg">
+            Get Started for free
+          </button>
+        </Link>
         <h2 className="inline-flex items-center font-medium text-[#145858] ml-6">
           Learn More
           <span className="ml-3 hover:rotate-45">
