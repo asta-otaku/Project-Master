@@ -12,7 +12,7 @@ import { ReactComponent as IconTask } from "../../assets/IconTask.svg";
 
 function Sidebar() {
   return (
-    <div className="bg-grey h-screen font-medium flex flex-col w-[240px]">
+    <div className="bg-grey h-screen font-medium flex flex-col w-[240px] mr-10">
       <ProjectMaster className="my-10 mx-auto" />
       <ul className="my-4">
         <li className="flex py-2 hover:border-r-[3px] border-green pl-10 hover:text-green">
