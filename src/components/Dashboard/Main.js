@@ -22,6 +22,7 @@ function Main() {
               <PrintCard />
             </div>
           </div>
+          <PrintCard />
         </div>
         <div className="col-span-3">Tough lid=fe</div>
       </div>
