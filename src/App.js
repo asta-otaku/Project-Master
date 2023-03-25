@@ -1,10 +1,14 @@
 import "./App.css";
-import AppRoutes from "./components/Routes";
+import Footer from "./PricingLandingPage/Footer";
+import Hero from "./PricingLandingPage/Hero";
+// import AppRoutes from "./components/Routes";
 
 function App() {
   return (
     <div>
-      <AppRoutes />
+      {/* <AppRoutes /> */}
+      <Hero />
+      <Footer />
     </div>
   );
 }

@@ -12,6 +12,8 @@ module.exports = {
     fontFamily: {
       jost: ["Jost", "sans-serif"],
       grotesk: ["Space Grotesk", "sans-serif"],
+      montserrat: ["Montserrat", "sans-serif"],
+      manrope: ["Manrope", "sans-serif"],
     },
     extend: {},
   },
