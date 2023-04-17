@@ -1,7 +1,6 @@
 import React from "react";
 import { ReactComponent as Toggles } from "../../assets/toggles.svg";
 import { ReactComponent as Mark } from "../../assets/mark.svg";
-import Footer from "../Home/Footer";
 import Companies from "../../assets/Companies.png";
 
 function Hero() {
@@ -265,7 +264,6 @@ function Hero() {
           </button>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

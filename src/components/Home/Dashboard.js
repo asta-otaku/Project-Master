@@ -2,10 +2,13 @@ import React from "react";
 import DashboardBackground from "../../assets/dashboard.png";
 import DashboardImage from "../../assets/dashboardimage.png";
 import { ReactComponent as ArrowRight } from "../../assets/arrowRight.svg";
+import { motion } from "framer-motion";
 
 function Dashboard() {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0.9 }}
+      whileHover={{ scale: 1.02, x: 10, opacity: 1 }}
       className="mt-48  grid grid-cols-2 py-24 gap-8"
       style={{ backgroundImage: `url(${DashboardBackground})` }}
     >
@@ -29,7 +32,7 @@ function Dashboard() {
           </span>
         </h2>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

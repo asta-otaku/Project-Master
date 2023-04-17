@@ -6,17 +6,24 @@ import Hero from "../components/Home/Hero";
 import Integrations from "../components/Home/Integrations";
 import Product from "../components/Home/Product";
 import Testimonials from "../components/Home/Testimonials";
+import { motion } from "framer-motion";
 
 function LandingPage() {
   return (
     <>
       <Header />
-      <Hero />
-      <Product />
-      <Dashboard />
-      <Integrations />
-      <Testimonials />
-      <Footer />
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <Hero />
+        <Product />
+        <Dashboard />
+        <Integrations />
+        <Testimonials />
+        <Footer />
+      </motion.div>
     </>
   );
 }

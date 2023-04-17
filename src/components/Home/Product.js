@@ -4,10 +4,11 @@ import { ReactComponent as Group44 } from "../../assets/group44.svg";
 import { ReactComponent as Group45 } from "../../assets/group45.svg";
 import { ReactComponent as Group46 } from "../../assets/group46.svg";
 import { ReactComponent as Group47 } from "../../assets/group47.svg";
+import { motion } from "framer-motion";
 
 function Product() {
   return (
-    <div className="mt-24">
+    <motion.div whileHover={{ scale: 1.1 }} className="mt-24">
       <h3 className="font-grotesk font-bold text-[28px] text-[#1E2121] text-center mb-12">
         Trusted by 10,000+ users worldwide
       </h3>
@@ -76,7 +77,7 @@ function Product() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
