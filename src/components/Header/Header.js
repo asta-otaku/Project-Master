@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="flex justify-around items-center h-20">
-      <Logo />
+      <Link to="/">
+        <Logo />
+      </Link>
       <ul className="flex">
         <Link to="/">
           <li className="mr-6">Features</li>
