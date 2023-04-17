@@ -14,7 +14,7 @@ function Sidebar() {
   return (
     <div className="bg-grey h-screen font-medium flex flex-col w-[240px] mr-10">
       <ProjectMaster className="my-10 mx-auto" />
-      <ul className="my-4">
+      <ul className="my-4 cursor-pointer">
         <li className="flex py-2 hover:border-r-[3px] border-green pl-10 hover:text-green">
           <IconDashboard className="mr-2" /> Dashboard
         </li>
@@ -29,12 +29,12 @@ function Sidebar() {
         </li>
       </ul>
       <hr className="text-[#979797]" />
-      <h4 className="mt-12 flex py-2 hover:border-r-[3px] border-green pl-10 hover:text-green">
+      <h4 className="mt-12 flex py-2 hover:border-r-[3px] border-green pl-10 hover:text-green cursor-pointer">
         <IconProject className="mr-2" />
         My projects
         <span className="ml-[30%]">+</span>
       </h4>
-      <ul>
+      <ul className="cursor-pointer">
         <li className="flex items-center py-2 hover:border-r-[3px] border-green pl-10 hover:text-green">
           <span className="rounded-full mr-2 w-4 h-4 bg-green" /> LifeShare
         </li>
@@ -43,7 +43,7 @@ function Sidebar() {
           PrintStudio
         </li>
       </ul>
-      <ul className="mt-8">
+      <ul className="mt-8 cursor-pointer">
         <li className="flex py-2 hover:border-r-[3px] border-green pl-10 hover:text-green">
           <IconIntegration className="mr-2" /> Integrations
         </li>
