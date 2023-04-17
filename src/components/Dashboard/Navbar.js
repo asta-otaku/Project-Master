@@ -2,10 +2,17 @@ import React from "react";
 import { ReactComponent as IconSearch } from "../../assets/IconSearch.svg";
 import { ReactComponent as IconPerson } from "../../assets/IconPerson.svg";
 import { ReactComponent as IconBell } from "../../assets/IconBell.svg";
+import { motion } from "framer-motion";
 
 function Navbar() {
   return (
-    <div className="mt-6">
+    <motion.nav
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1.5 }}
+      className="mt-6"
+    >
       <div className="flex items-center">
         <div className="mr-[72px]">
           <h4 className="font-grotesk font-bold text-[24px] w-[15rem] leading-8">
@@ -36,7 +43,7 @@ function Navbar() {
           <IconBell className="cursor-pointer" />
         </div>
       </div>
-    </div>
+    </motion.nav>
   );
 }
 

@@ -9,10 +9,17 @@ import { ReactComponent as IconLogout } from "../../assets/IconLogout.svg";
 import { ReactComponent as IconProject } from "../../assets/IconProject.svg";
 import { ReactComponent as IconSetting } from "../../assets/IconSetting.svg";
 import { ReactComponent as IconTask } from "../../assets/IconTask.svg";
+import { motion } from "framer-motion";
 
 function Sidebar() {
   return (
-    <div className="bg-grey h-screen font-medium flex flex-col w-[240px] mr-10">
+    <motion.nav
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 100 }}
+      transition={{ duration: 1.5 }}
+      className="bg-grey h-[65rem] font-medium flex flex-col w-[240px] mr-10"
+    >
       <ProjectMaster className="my-10 mx-auto" />
       <ul className="my-4 cursor-pointer">
         <li className="flex py-2 hover:border-r-[3px] border-green pl-10 hover:text-green">
@@ -58,7 +65,7 @@ function Sidebar() {
       <div className="mt-4 flex py-2 hover:border-r-[3px] border-green pl-10 text-[#979797] hover:text-green">
         <IconLogout className="mr-2" /> Log Out
       </div>
-    </div>
+    </motion.nav>
   );
 }
 
