@@ -10,8 +10,10 @@ import { ReactComponent as IconProject } from "../../assets/IconProject.svg";
 import { ReactComponent as IconSetting } from "../../assets/IconSetting.svg";
 import { ReactComponent as IconTask } from "../../assets/IconTask.svg";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 function Sidebar() {
+  const navigate = useNavigate();
   return (
     <motion.nav
       initial={{ opacity: 0, y: -100 }}
@@ -62,7 +64,12 @@ function Sidebar() {
         </li>
       </ul>
       <hr className="text-[#979797] mt-5" />
-      <div className="mt-4 flex py-2 hover:border-r-[3px] border-green pl-10 text-[#979797] hover:text-green">
+      <div
+        className="mt-4 flex py-2 hover:border-r-[3px] border-green pl-10 text-[#979797] hover:text-green cursor-pointer"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
         <IconLogout className="mr-2" /> Log Out
       </div>
     </motion.nav>
