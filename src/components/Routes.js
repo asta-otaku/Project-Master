@@ -5,6 +5,7 @@ import LandingPage from "../pages/LandingPage";
 import Contact from "../pages/Contact";
 import SignUp from "./Login/SignUp";
 import GetStarted from "../pages/GetStarted";
+import Profile from "../pages/Profile";
 
 function AppRoutes() {
   const { pathname } = useLocation();
@@ -19,6 +20,7 @@ function AppRoutes() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/get-started" element={<GetStarted />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }

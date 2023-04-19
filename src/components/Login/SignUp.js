@@ -5,8 +5,13 @@ import { ReactComponent as ProjectMaster } from "../../assets/Project Master.svg
 import { ReactComponent as Frame38 } from "../../assets/Frame 38.svg";
 import { ReactComponent as Frame67 } from "../../assets/Frame 67.svg";
 import Wave from "../../assets/Wave.png";
+import { useAuth0 } from "@auth0/auth0-react";
+import { useNavigate } from "react-router-dom";
 
 function SignUp() {
+  const { loginWithRedirect, logout } = useAuth0();
+  const navigate = useNavigate();
+
   return (
     <div className="grid grid-cols-2">
       <div className="pl-24 py-16 text-[#191C1C] col-span-1">
@@ -56,9 +61,22 @@ function SignUp() {
             Or
             <hr className="w-[180px] text-[#979797] ml-2" />
           </span>
-          <ButtonGoogle className="mb-4" />
-          <ButtonApple />
+          <ButtonGoogle
+            onClick={() => loginWithRedirect()}
+            className="mb-4 cursor-pointer"
+          />
+          <ButtonApple
+            onClick={() => loginWithRedirect()}
+            className="cursor-pointer"
+          />
         </div>
+        <button
+          onClick={() =>
+            logout({ logoutParams: { returnTo: window.location.origin } })
+          }
+        >
+          Log Out
+        </button>
       </div>
       <div className="bg-green col-span-1 text-white">
         <h4 className="mt-16 flex justify-end mr-24">
