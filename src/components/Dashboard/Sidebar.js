@@ -10,10 +10,10 @@ import { ReactComponent as IconProject } from "../../assets/IconProject.svg";
 import { ReactComponent as IconSetting } from "../../assets/IconSetting.svg";
 import { ReactComponent as IconTask } from "../../assets/IconTask.svg";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Sidebar() {
-  const navigate = useNavigate();
+  const { isAuthenticated, logout } = useAuth0();
   return (
     <motion.nav
       initial={{ opacity: 0, y: -100 }}
@@ -67,7 +67,9 @@ function Sidebar() {
       <div
         className="mt-4 flex py-2 hover:border-r-[3px] border-green pl-10 text-[#979797] hover:text-green cursor-pointer"
         onClick={() => {
-          navigate("/");
+          if (isAuthenticated) {
+            logout({ logoutParams: { returnTo: window.location.origin } });
+          }
         }}
       >
         <IconLogout className="mr-2" /> Log Out

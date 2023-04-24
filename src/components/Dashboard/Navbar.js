@@ -3,8 +3,10 @@ import { ReactComponent as IconSearch } from "../../assets/IconSearch.svg";
 import { ReactComponent as IconPerson } from "../../assets/IconPerson.svg";
 import { ReactComponent as IconBell } from "../../assets/IconBell.svg";
 import { motion } from "framer-motion";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar() {
+  const { user } = useAuth0();
   return (
     <motion.nav
       initial={{ opacity: 0, x: 100 }}
@@ -16,7 +18,8 @@ function Navbar() {
       <div className="flex items-center">
         <div className="mr-[72px]">
           <h4 className="font-grotesk font-bold text-[24px] w-[15rem] leading-8">
-            Welcome back, Celia <br />
+            Welcome back, {user ? user.name.split(" ")[1] : "Celia"}
+            <br />
             <span className="font-jost font-normal text-[12.8px]">
               It’s another great day to be worldclass 👊🏿
             </span>
@@ -33,7 +36,7 @@ function Navbar() {
           <div className="flex mr-12">
             <IconPerson className="mr-4" />
             <h4 className="font-medium text-[#191C1C] w-[7rem] leading-6">
-              Temitope Celia
+              {user ? user.name : "Temitope Celia"}
               <br />
               <span className="font-normal text-[12.8px]">
                 Product Designer

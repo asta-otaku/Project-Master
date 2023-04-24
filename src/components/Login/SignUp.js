@@ -6,11 +6,9 @@ import { ReactComponent as Frame38 } from "../../assets/Frame 38.svg";
 import { ReactComponent as Frame67 } from "../../assets/Frame 67.svg";
 import Wave from "../../assets/Wave.png";
 import { useAuth0 } from "@auth0/auth0-react";
-// import { useNavigate } from "react-router-dom";
 
 function SignUp() {
-  const { loginWithRedirect, logout } = useAuth0();
-  // const navigate = useNavigate();
+  const { loginWithRedirect } = useAuth0();
 
   return (
     <div className="grid grid-cols-2">
@@ -70,13 +68,6 @@ function SignUp() {
             className="cursor-pointer"
           />
         </div>
-        <button
-          onClick={() =>
-            logout({ logoutParams: { returnTo: window.location.origin } })
-          }
-        >
-          Log Out
-        </button>
       </div>
       <div className="bg-green col-span-1 text-white">
         <h4 className="mt-16 flex justify-end mr-24">
